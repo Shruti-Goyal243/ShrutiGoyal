@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="com.yash.mergetwoarray.Array1" id="array1">
+		<property name="array1">
+			<list>
+				<value>23</value>
+				<value>67</value>
+				<value>38</value>
+				<value>92</value>
+				<value>46</value>
+			</list>
+		</property>
+	</bean>
+	<bean class="com.yash.mergetwoarray.Array2" id="array2">
+	<property name="array2">
+			<list>
+				<value>54</value>
+				<value>36</value>
+				<value>39</value>
+				<value>96</value>
+				<value>25</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>
